@@ -2,20 +2,28 @@
 #include <stdlib.h>
 #include<stdbool.h>
 
+//int divededby(int n,int a)
+
+
 bool isPremier(A){
-     int i;
      bool result;
-     result=1;
-     for(i=2;i<A;i++){
+     result="true";
+     for(int i=2;i<=A/2;i++){
+
         if(A%i==0){
-            result=0;
+             result="false";
+        }
+
+        break;}
+
+
+        if (result="false"){
             printf("ce nombre n'est pas premier");
-        }else{
+        }
+
+        else{
             printf("ce nombre est premier");
         }
-        break;
-     }
-
  }
 
  int main(){
