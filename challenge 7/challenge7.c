@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+
 void add(float A,float B){ //une fonction qui permet de faire l'addition des deux nombres a et b
 
     printf("la somme des deux nombres est %.2f", A+B);
