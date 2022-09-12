@@ -3,10 +3,10 @@
 
 void echange(float A, float B){
 
-    float a = B,b=A;
+    //float a = B,b=A;
 
-    printf("A=%.2f\n",a);
-    printf("B=%.2f",b);
+    printf("A=%.2f\n",B);
+    printf("B=%.2f",A);
 }
 
 int main(){
